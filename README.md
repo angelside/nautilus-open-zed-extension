@@ -33,15 +33,15 @@ Files are intentionally ignored because Nautilus already provides Zed through it
 - GNOME Nautilus
 - `nautilus-python`
 - Zed
-- `zed` available in `PATH`
+- `zeditor` available in `PATH`
 
 Check that Zed is available:
 
-    which zed
+    which zeditor
 
 For example:
 
-    /usr/bin/zed
+    /usr/bin/zeditor
 
 ## Installation
 
@@ -96,11 +96,11 @@ When a directory is selected, the extension passes its filesystem path directly 
 
 For example:
 
-    zed /home/user/projects/my-project
+    zeditor /home/user/projects/my-project
 
 For empty space inside a directory:
 
-    zed /home/user/projects
+    zeditor /home/user/projects
 
 ## License
 
